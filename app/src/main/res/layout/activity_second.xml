@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01131C">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nature_background" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="488dp"
+        android:layout_height="728dp"
+        android:alpha="0.7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blue_back" />
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="116dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="295dp"
+        android:layout_marginRight="295dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#B3CEE1"
+        android:textSize="20sp"
+        app:fontFamily="cursive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="377dp"
+        android:layout_height="126dp"
+        android:layout_marginBottom="210dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#B3CEE1"
+        android:textSize="20sp"
+        app:fontFamily="cursive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="139dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="140dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#B3CEE1"
+        android:textSize="20sp"
+        app:fontFamily="cursive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="222dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginBottom="970dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#D5E6ED"
+        android:textSize="30sp"
+        app:fontFamily="cursive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <Button
+        android:id="@+id/createAnother"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#0C2133"
+        android:onClick="createAnother"
+        android:text="create another"
+        android:textColor="#B3CEE1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
